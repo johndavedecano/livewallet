@@ -10,6 +10,30 @@ mix ecto.migrate
 mix phx.server
 ```
 
+## Test Live View
+
+Make sure you register an account first.
+
+```
+curl --location --request POST 'http://localhost:4000/api/transactions' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "transaction": {
+        "user_id": 1,
+        "amount": 20000,
+        "description": "cash in from bank",
+        "status": "pending",
+        "type": "credit"
+    }
+}'
+```
+
+## Unit Test
+
+```
+mix test
+```
+
 To start your Phoenix server:
 
 - Install dependencies with `mix deps.get`
