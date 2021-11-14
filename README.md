@@ -28,7 +28,7 @@ curl --location --request POST 'http://localhost:4000/api/transactions' \
 }'
 ```
 
-![My Image](https://raw.github.com/johndavedecano/livewallet/main/screenshot.png)
+![My Image](https://github.com/johndavedecano/livewallet/blob/b3859943d4c2c367fc38159be5049a40e75fb860/screenshot.png)
 
 ## Unit Test
 
