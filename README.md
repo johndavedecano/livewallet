@@ -10,6 +10,12 @@ mix ecto.migrate
 mix phx.server
 ```
 
+# Listing Routes
+
+```
+mix phx.routes
+```
+
 ## Test Live View
 
 Make sure you register an account first.
